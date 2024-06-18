@@ -16,88 +16,94 @@ const Projects = () => {
         </p>
       </div>
       <div class="w-full h-[565px] gap-[42px] flex items-center justify-around">
-  <div class="w-[412px] h-[464px] gap-0 flex flex-col items-start justify-between">
-    <img
-      className="w-[412px] h-[464px] rounded-[1px]"
-      src={projectimg1}
-      alt="ProjectImg"
-    />
-    <div className="h-[69px] w-full">
-      <p class="text-left">E-tutor - education & online LMS</p>
-      <button class="w-[146px] h-[32px] px-0 py-[6px] gap-[8px] flex justify-start items-center rounded-lg text-[16px] text-[#53ADE4] font-semibold text-left">
-        Learn More
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="1.5"
-          stroke="currentColor"
-          class="w-6 h-6 ml-2"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+        <div class="w-[412px] h-[464px] gap-0 flex flex-col items-start justify-between">
+          <img
+            className="w-[412px] h-[464px] rounded-[1px]"
+            src={projectimg1}
+            alt="ProjectImg"
           />
-        </svg>
-      </button>
-    </div>
-  </div>
-  <div class="w-[412px] h-[464px] gap-0 flex flex-col items-start justify-between">
-    <img
-      className="w-[412px] h-[464px] rounded-[1px]"
-      src={projectimg2}
-      alt="ProjectImg"
-    />
-    <div className="h-[69px] w-full">
-      <p class="text-left">Pagoupon - Properties Agency Website</p>
-      <button class="w-[146px] h-[32px] px-0 py-[6px] gap-[8px] flex justify-start items-center rounded-lg text-[16px] text-[#53ADE4] font-semibold text-left">
-        Learn More
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="1.5"
-          stroke="currentColor"
-          class="w-6 h-6 ml-2"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+          <div className="h-[69px] w-full">
+            <p class="text-left text-[20px] font-normal">
+              E-tutor - education & online LMS
+            </p>
+            <button class="w-[146px] h-[32px] px-0 py-[6px] gap-[8px] flex justify-start items-center rounded-lg text-[16px] text-[#53ADE4] font-semibold text-left">
+              Learn More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 ml-2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="w-[412px] h-[464px] gap-0 flex flex-col items-start justify-between">
+          <img
+            className="w-[412px] h-[464px] rounded-[1px]"
+            src={projectimg2}
+            alt="ProjectImg"
           />
-        </svg>
-      </button>
-    </div>
-  </div>
-  <div class="w-[412px] h-[464px] gap-0 flex flex-col items-start justify-between">
-    <img
-      className="w-[412px] h-[464px] rounded-[1px]"
-      src={projectimg3}
-      alt="ProjectImg"
-    />
-    <div className="h-[69px] w-full">
-      <p class="text-left">Find workspace - Mobile app design</p>
-      <button class="w-[146px] h-[32px] px-0 py-[6px] gap-[8px] flex justify-start items-center rounded-lg text-[16px] text-[#53ADE4] font-semibold text-left">
-        Learn More
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="1.5"
-          stroke="currentColor"
-          class="w-6 h-6 ml-2"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+          <div className="h-[69px] w-full">
+            <p class="text-left text-[20px] font-normal">
+              Pagoupon - Properties Agency Website
+            </p>
+            <button class="w-[146px] h-[32px] px-0 py-[6px] gap-[8px] flex justify-start items-center rounded-lg text-[16px] text-[#53ADE4] font-semibold text-left">
+              Learn More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 ml-2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="w-[412px] h-[464px] gap-0 flex flex-col items-start justify-between">
+          <img
+            className="w-[412px] h-[464px] rounded-[1px]"
+            src={projectimg3}
+            alt="ProjectImg"
           />
-        </svg>
-      </button>
-    </div>
-  </div>
-</div>
+          <div className="h-[69px] w-full">
+            <p class="text-left text-[20px] font-normal">
+              Find workspace - Mobile app design
+            </p>
+            <button class="w-[146px] h-[32px] px-0 py-[6px] gap-[8px] flex justify-start items-center rounded-lg text-[16px] text-[#53ADE4] font-semibold text-left">
+              Learn More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 ml-2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
