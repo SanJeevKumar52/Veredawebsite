@@ -45,7 +45,7 @@ const Hero = () => {
             </p>
 
             <button className="w-[209px] h-[50px] mt-[50px] flex justify-center items-center rounded-[1rem] text-[16px] bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100">
-              Get Started a Projec
+              Get Started a Project
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
