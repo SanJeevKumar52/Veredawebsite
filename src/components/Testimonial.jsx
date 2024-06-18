@@ -1,10 +1,11 @@
 import React from "react";
-import testimonial from '../assets/Testimonial.png'
-import pagination from '../assets/Pagination.png'
+import testimonial from "../assets/Testimonial.png";
+import pagination from "../assets/Pagination.png";
+import I902 from '../assets/902.png'
 const Testimonial = () => {
   return (
     <>
-      <div class="h-[948px] p-[100px_84px] gap-[70px]  border-8 border-sky-500 flex flex-col items-center justify-around text-center">
+      <div class="h-[948px] p-[100px_84px] gap-[70px]  bg-[#F5F6F7] flex flex-col items-center justify-around text-center">
         <div className=" h-[233px] max-w-[1272px]  gap-[16px] flex flex-col items-center justify-around text-center my-8">
           <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-[#53ADE4] to-[#277BA8] text-[24px] lg:text-[36px] font-semibold">
             Fueling Entrepreneurial Dreams with Tailored App
@@ -23,7 +24,30 @@ const Testimonial = () => {
           <img src={testimonial} alt="testimonial" />
           <img src={pagination} alt="pagination" />
         </div>
-        
+      </div>
+      <div class="h-[680px] pt-[72px] pr-[80px] pb-[72px] pl-[80px] gap-[134px]  bg-[#161C2D] flex  items-center justify-around text-center">
+         <img className="w-[573px] h-[536] " src={I902} alt="I902" />
+         <div className="text-[white] w-[650px] text-left">
+            <p className="text-[36px] font-semibold">Have a project idea! Let’s work together.</p>
+            <p className="text-[20px] font-normal">Building Distinctive Apps with Exceptional User Experiences for your application development</p>
+            <button className="w-[248pxpx] h-[50px] mt-[50px] pl-[32px] pr-[32px] gap-[12px] font-bold flex justify-center items-center rounded-[1rem] text-[16px] bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100">
+              Talk To Our Expert
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </button>
+         </div>
       </div>
     </>
   );
